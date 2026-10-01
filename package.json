@@ -1,0 +1,17 @@
+{
+  "name": "agent-wrangler-pixel-office",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Shows the Pixel Agents office as an Agent Wrangler view; click a character to open its session.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "wranglerExtension": {
+    "id": "pixel-office",
+    "label": "Pixel Office",
+    "description": "Shows the Pixel Agents office as a board view. Click a character to open its session.",
+    "author": "Victoria Xiao",
+    "requires": []
+  }
+}
